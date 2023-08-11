@@ -1,0 +1,17 @@
+all_column_headers,all_categorical_values_headers,all_continuous_values_headers,target_label,categorical_values_range,col_with_outliers_names,selected_feature_names,feature_extraction_method,selected_model,selected_hyperparameters
+male,male,age,TenYearCHD,"{'male': [0, 1], 'education': [1, 4], 'currentSmoker': [0, 1], 'BPMeds': [0, 1], 'prevalentStroke': [0, 1], 'prevalentHyp': [0, 1], 'diabetes': [0, 1]}",totChol,age,None,Extra Trees Classifier,"{'warm_start': True, 'n_estimators': 1600, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': None, 'max_depth': None, 'criterion': 'gini', 'bootstrap': False}"
+age,education,cigsPerDay,,,sysBP,cigsPerDay,,,
+education,currentSmoker,totChol,,,BMI,totChol,,,
+currentSmoker,BPMeds,sysBP,,,glucose,sysBP,,,
+cigsPerDay,prevalentStroke,diaBP,,,,diaBP,,,
+BPMeds,prevalentHyp,BMI,,,,BMI,,,
+prevalentStroke,diabetes,heartRate,,,,heartRate,,,
+prevalentHyp,,glucose,,,,,,,
+diabetes,,,,,,,,,
+totChol,,,,,,,,,
+sysBP,,,,,,,,,
+diaBP,,,,,,,,,
+BMI,,,,,,,,,
+heartRate,,,,,,,,,
+glucose,,,,,,,,,
+TenYearCHD,,,,,,,,,
